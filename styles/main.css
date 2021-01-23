@@ -6,6 +6,10 @@
     width: 100%;
     position: absolute;
     top: 8vh;
+    background-image: url(../assets/wave.svg);
+    background-repeat: no-repeat;
+    background-position: center 60vh;
+    background-size: 100%;
 }
 
 .content {
@@ -13,7 +17,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transform: translateY(-10vh);
+    transform: translateY(-15vh);
 }
 
 .title {
@@ -45,10 +49,10 @@
     color: #1A144F;
     font-family: "Inter", sans-serif;
     font-size: 1.5vw;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
     border-radius: 50px;
     transition-duration: 0.4s;
     margin-top: 20px;
