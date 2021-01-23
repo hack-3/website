@@ -32,9 +32,9 @@ jobs:
       
       - name: Check stuff
         run: |
-          echo which ssh
-          echo which sshpass
-          echo which rsync
+          echo $(which ssh)
+          echo $(which sshpass)
+          echo $(which rsync)
 
       - name: Send files
         env:
