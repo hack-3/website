@@ -22,18 +22,6 @@ nav {
     letter-spacing: 1px;
 }
 
-.social-links {
-    display: flex;
-    justify-content: space-around;
-    width: 400px;
-    text-decoration: none;
-    margin-left: auto;
-}
-
-.social-links li {
-    list-style: none;
-}
-
 nav .logo {
     height: 4vh;
     margin-left: 20px;
