@@ -39,4 +39,4 @@ jobs:
       - name: Send files
         env:
           SSHPASS: bmU4[47PfHC#v6
-        run: rsync -a -delete --rsh="sshpass -e ssh -l hackco" /home/runner/work/website/website/ 68.162.241.27:~/domains/new.hack3.co/public_html
+        run: /usr/bin/rsync -a -delete --rsh="/usr/bin/sshpass -e /usr/bin/ssh -l hackco" /home/runner/work/website/website/ 68.162.241.27:~/domains/new.hack3.co/public_html
