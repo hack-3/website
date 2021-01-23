@@ -29,6 +29,12 @@ jobs:
 
       - name: Install dependencies
         run: sudo apt install -y sshpass
+      
+      - name: Check stuff
+        run: |
+          echo which ssh
+          echo which sshpass
+          echo which rsync
 
       - name: Send files
         env:
