@@ -27,4 +27,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy
-        run: sh -c "rsync -az --delete -e 'ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no -p 1588' $GITHUB_WORKSPACE/ jonathan@fiber5.iaasdns.com:~/hack3.co"
+        run: sh -c "rsync -az --delete -e 'ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no -p 1588' $GITHUB_WORKSPACE/ jonathan@fiber5.iaasdns.com:/home/jonathan/hack3.co"
