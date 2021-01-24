@@ -30,4 +30,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Deploy
-        run: sh -c "rsync -a --delete -e 'ssh -i $SSHPATH/key -o StrictHostKeyChecking=no' $GITHUB_WORKSPACE/ $DESTINATION"
+        run: sh -c "rsync --verbose -a --delete -e 'ssh -i $SSHPATH/key -o StrictHostKeyChecking=no' $GITHUB_WORKSPACE/ $DESTINATION"
