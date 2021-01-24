@@ -1,0 +1,30 @@
+name: Deploy to the production server.
+
+on:
+  push:
+    branches: [ prod ]
+  pull_request:
+    branches: [ prod ]
+  
+  
+  workflow_dispatch:
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup authentication
+        run: |
+          SSHPATH="$HOME/.ssh"
+          mkdir -p $SSHPATH
+          echo "$KEY" > "$SSHPATH/key"
+          chmod 600 "$SSHPATH/key"
+        env:
+          KEY: ${{ secrets.SSH_KEY }}
+
+      # Runs a set of commands using the runners shell
+      - name: Deploy
+        run: sh -c "rsync -az --delete -e 'ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no' $GITHUB_WORKSPACE/ jonathan@fiber5.iaasdns.com:~/hack3.co"
