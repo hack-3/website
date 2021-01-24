@@ -46,7 +46,6 @@
 .register {
     background-color: white;
     border: 4px solid #71A1E8;
-    color: #1A144F;
     font-family: "Inter", sans-serif;
     font-size: 1.5vw;
     padding-top: 0.5vw;
@@ -61,7 +60,16 @@
 
 .register:hover {
     background-color: #71A1E8;
+}
+
+.register:hover .register-link {
     color: white;
+}
+
+.register-link {
+    color: #1A144F;
+    text-decoration: none;
+    transition-duration: 0.4s;
 }
 
 /* Widescreen */
