@@ -18,7 +18,7 @@ jobs:
       - name: Setup authentication
         run: |
           SSHPATH="$HOME/.ssh"
-          mkdir -p SSHPATH
+          mkdir -p $SSHPATH
           echo "$KEY" > "$SSHPATH/key"
           chmod 600 "$SSHPATH/key"
           DESTINATION="$USERNAME@$IP:$DIRECTORY"
