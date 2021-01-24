@@ -1,0 +1,33 @@
+name: Deploy to staging server.
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup authentication
+        run: |
+          SSHPATH="$HOME/.ssh"
+          mkdir -p SSHPATH
+          echo "$KEY" >> $SSHPATH/key
+          chmod 600 "$SSHPATH/key"
+          DESTINATION="$USERNAME@$IP:$DIRECTORY"
+        env:
+          KEY: ${{ secrets.SSH_KEY }}
+          USERNAME: ${{ secrets.USERNAME }}
+          IP: ${{ secrets.IP }}
+          DIRECTORY: ${{ secrets.DIRECTORY }}
+
+      # Runs a set of commands using the runners shell
+      - name: Deploy
+        run: sh -c "rsync -a --delete -e 'ssh -i $SSHPATH/key -o StrictHostKeyChecking=no' $GITHUB_WORKSPACE/ $DESTINATION"
