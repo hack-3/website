@@ -62,3 +62,30 @@
     background-color: #71A1E8;
     color: white;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 10vw;
+        line-height: 11vw;
+        margin-top: 10px;
+    }
+    
+    .subtitle {
+        font-size: 5vw;
+        width: 60vw;
+        text-align: center;
+    }
+    
+    .hack3 {
+        width: 25vw;
+    }
+    
+    .register {
+        font-size: 3vw;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        padding-left: 3vw;
+        padding-right: 3vw;
+    }
+}

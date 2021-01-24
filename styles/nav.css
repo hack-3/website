@@ -3,6 +3,8 @@ nav {
     align-items: center;
     min-height: 8vh;
     font-family: "Inter", sans-serif;
+    position: relative;
+    z-index: 1;
 }
 
 .nav-links {
