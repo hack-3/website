@@ -64,6 +64,37 @@
     color: white;
 }
 
+/* Widescreen */
+@media screen and (min-width: 1920px) {
+    .content {
+        transform: translateY(-10vh);
+    }
+    .title {
+        font-size: 4vw;
+        line-height: 4.5vw;
+        margin-top: 30px;
+        width: 50vw;
+    }
+    
+    .subtitle {
+        font-size: 2vw;
+        width: 45vw;
+        text-align: center;
+    }
+    
+    .hack3 {
+        width: 10vw;
+    }
+    
+    .register {
+        font-size: 1vw;
+        padding-top: 0.3vw;
+        padding-bottom: 0.3vw;
+        padding-left: 1vw;
+        padding-right: 1vw;
+    }
+}
+
 /* Mobile */
 @media screen and (max-width: 768px) {
     .title {
