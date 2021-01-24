@@ -19,7 +19,7 @@ jobs:
         run: |
           SSHPATH="$HOME/.ssh"
           mkdir -p SSHPATH
-          echo "$KEY" > $SSHPATH/key
+          echo "$KEY" > "$SSHPATH/key"
           chmod 600 "$SSHPATH/key"
           DESTINATION="$USERNAME@$IP:$DIRECTORY"
         env:
