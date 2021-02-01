@@ -21,8 +21,6 @@
 }
 
 .title {
-    font-family: "Poppins", sans-serif;
-    color: #1A144F;
     font-size: 5vw;
     width: 60vw;
     text-align: center;
@@ -31,8 +29,6 @@
 }
 
 .subtitle {
-    font-family: "Rubik", sans-serif;
-    color: #B4B4B4;
     font-size: 3vw;
     width: 50vw;
     text-align: center;

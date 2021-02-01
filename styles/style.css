@@ -11,3 +11,13 @@
 .content {
     position: relative;
 }
+
+.title {
+    font-family: "Poppins", sans-serif;
+    color: #1A144F;
+}
+
+.subtitle {
+    font-family: "Rubik", sans-serif;
+    color: #B4B4B4;
+}
