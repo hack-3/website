@@ -1,5 +1,6 @@
 .section#faq-section {
     top: 10vh;
+    padding-bottom: 50px;
 }
 .content#faq-content {
     display: flex;
