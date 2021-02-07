@@ -1,19 +1,9 @@
-.section#faq-section {
-    top: 10vh;
-    padding-bottom: 50px;
-}
 .content#faq-content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
 }
 
-.title#faq-title {
-    margin: auto;
-    margin-bottom: 10px;
-}
-
-.faq-el {
+.faq {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
     display: flex;
@@ -23,7 +13,7 @@
     border-radius: 10px;
 }
 
-.faq-el:hover {
+.faq:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
@@ -44,14 +34,14 @@
 
 /* Widescreen */
 @media screen and (min-width: 1920px) {
-    .faq-el {
+    .faq {
         width: 18vw;
     }
 }
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-    .faq-el {
+    .faq {
         width: 80vw;
     }
 }

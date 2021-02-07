@@ -1,0 +1,19 @@
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-family: "Poppins", sans-serif;
+}
+
+.description {
+    font-family: "Rubik", sans-serif;
+    color: #B4B4B4;
+}

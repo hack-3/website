@@ -4,17 +4,28 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .section {
     position: relative;
+    top: 10vh;
 }
 
 .content {
     position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .title {
     font-family: "Poppins", sans-serif;
     color: #1A144F;
+    margin: auto;
+    margin-bottom: 10px;
 }
 
 .subtitle {
