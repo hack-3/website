@@ -28,7 +28,7 @@ jobs:
       - name: Deploy
         run: |
           sh -c "rsync -az --delete -e 'ssh -i $HOME/.ssh/key -o StrictHostKeyChecking=no' $GITHUB_WORKSPACE/ hackco@68.162.241.27:/home/hackco/domains/new.hack3.co/public_html"
-          curl -X POST "https://api.cloudflare.com/client/v4/zones/$ZONE/purge_cache" -H "Authorization: Bearer $CFAUTH" -H "Content-Type: application/json" --data '{"purge_everything":true}'
+          sh -c "curl -X POST 'https://api.cloudflare.com/client/v4/zones/$ZONE/purge_cache' -H 'Authorization: Bearer $CFAUTH' -H 'Content-Type: application/json' --data '{\"purge_everything\":true}'"
         env:
           AUTH: ${{ secrets.CF_AUTH }}
           ZONE: ${{ secrets.CF_ZONE }}
