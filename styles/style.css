@@ -10,7 +10,7 @@ html {
 
 .section {
     position: relative;
-    top: 10vh;
+    margin-top: 5vh;
 }
 
 .content {
@@ -26,6 +26,8 @@ html {
     color: #1A144F;
     margin: auto;
     margin-bottom: 10px;
+    font-size: 5vw;
+    text-align: center;
 }
 
 .subtitle {

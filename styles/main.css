@@ -5,7 +5,6 @@
     height: 92vh;
     width: 100%;
     position: relative;
-    top: 8vh;
     background-image: url(../assets/wave.svg);
     background-repeat: no-repeat;
     background-position: center 60vh;
@@ -14,13 +13,12 @@
 
 .content#main-content {
     flex-direction: column;
+    align-items: center;
     transform: translateY(-15vh);
 }
 
-.title {
-    font-size: 5vw;
+.title#main-title {
     width: 60vw;
-    text-align: center;
     line-height: 5.5vw;
     margin-top: 30px;
 }
@@ -67,7 +65,7 @@
     .content#main-content {
         transform: translateY(-15vh);
     }
-    .title {
+    .title#main-title {
         font-size: 4vw;
         line-height: 4.5vw;
         margin-top: 30px;
@@ -95,7 +93,7 @@
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-    .title {
+    .title#main-title {
         font-size: 10vw;
         line-height: 11vw;
         margin-top: 10px;
