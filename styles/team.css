@@ -18,3 +18,17 @@
     font-family: "Rubik", sans-serif;
     color: #B4B4B4;
 }
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .profile-picture {
+        width: 25vw;
+    }
+}
+
+/* Widescreen */
+@media screen and (max-width: 1920px) {
+    .profile-picture {
+        width: 15vw;
+    }
+}
