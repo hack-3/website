@@ -22,12 +22,18 @@
 /* Mobile */
 @media screen and (max-width: 768px) {
     .profile-picture {
-        width: 25vw;
+        width: 30vw;
+    }
+    .profile {
+        margin-left: 50px;
+        margin-right: 50px;
+        margin-top: 20px;
+        margin-bottom: 20px
     }
 }
 
 /* Widescreen */
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1920px) {
     .profile-picture {
         width: 15vw;
     }
