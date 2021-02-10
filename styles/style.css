@@ -34,3 +34,10 @@ html {
     font-family: "Rubik", sans-serif;
     color: #B4B4B4;
 }
+
+/** Mobile **/
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 15vw;
+    }
+}
