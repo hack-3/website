@@ -19,6 +19,7 @@
 .description {
     font-family: "Rubik", sans-serif;
     color: #B4B4B4;
+    font-size: 1.2vw;
 }
 
 /* Mobile */
@@ -34,6 +35,9 @@
     }
     .profile-name {
         font-size: 5vw;
+    }
+    .description {
+        font-size: 4vw;
     }
 }
 
