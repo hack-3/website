@@ -7,11 +7,12 @@
 
 .profile-picture {
     border-radius: 50%;
-    width: 10vw;
+    width: 15vw;
 }
 
 .profile-name {
     font-family: "Poppins", sans-serif;
+    color: #1A144F;
 }
 
 .description {
@@ -35,6 +36,12 @@
 /* Widescreen */
 @media screen and (min-width: 1920px) {
     .profile-picture {
-        width: 15vw;
+        width: 10vw;
+    }
+    .profile-name {
+        font-size: 1vw;
+    }
+    .description {
+        font-size: 0.7vw;
     }
 }
