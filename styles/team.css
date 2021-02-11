@@ -13,6 +13,7 @@
 .profile-name {
     font-family: "Poppins", sans-serif;
     color: #1A144F;
+    font-size: 2vw;
 }
 
 .description {
@@ -30,6 +31,9 @@
         margin-right: 50px;
         margin-top: 20px;
         margin-bottom: 20px
+    }
+    .profile-name {
+        font-size: 5vw;
     }
 }
 
