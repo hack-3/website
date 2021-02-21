@@ -1,4 +1,5 @@
 .footer {
+    display: flex;
     position: relative;
     height: 10vh;
 }

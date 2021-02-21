@@ -1,4 +1,4 @@
-.section#main-section {
+#main-section {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,19 +11,19 @@
     background-size: 100%;
 }
 
-.content#main-content {
+#main-content {
     flex-direction: column;
     align-items: center;
     transform: translateY(-15vh);
 }
 
-.title#main-title {
+#main-title {
     width: 60vw;
     line-height: 5.5vw;
     margin-top: 30px;
 }
 
-.subtitle {
+#main-subtitle {
     font-size: 3vw;
     width: 50vw;
     text-align: center;
@@ -59,23 +59,22 @@
 
 /* Widescreen */
 @media screen and (min-width: 1920px) {
-    .section#main-section {
+    #main-section {
         background-position: center 50vh;
     }
-    .content#main-content {
+    #main-content {
         transform: translateY(-15vh);
     }
-    .title#main-title {
+    #main-title {
         font-size: 4vw;
         line-height: 4.5vw;
         margin-top: 30px;
         width: 50vw;
     }
     
-    .subtitle {
+    #main-subtitle {
         font-size: 2vw;
         width: 35vw;
-        text-align: center;
     }
     
     .hack3 {
@@ -93,16 +92,15 @@
 
 /* Mobile */
 @media screen and (max-width: 768px) {
-    .title#main-title {
+    #main-title {
         font-size: 10vw;
         line-height: 11vw;
         margin-top: 10px;
     }
     
-    .subtitle {
+    #main-subtitle {
         font-size: 5vw;
         width: 50vw;
-        text-align: center;
     }
     
     .hack3 {

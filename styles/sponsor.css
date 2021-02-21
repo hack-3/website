@@ -1,0 +1,13 @@
+#sponsors-subtitle {
+    font-size: 2vw;
+}
+
+.sponsor {
+    height: 3vw;
+}
+
+@media screen and (max-width: 768px) {
+    #sponsors-subtitle {
+        font-size: 5vw;
+    }
+}
