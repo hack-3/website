@@ -10,7 +10,7 @@ nav {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 200px;
+    width: 220px;
     text-decoration: none;
 }
 
