@@ -6,6 +6,14 @@
     height: 3vw;
 }
 
+/** Widescreen **/
+@media screen and (min-width: 1920px) {
+    #sponsors-subtitle {
+        font-size: 1.5vw;
+    }
+}
+
+/** Mobile **/
 @media screen and (max-width: 768px) {
     #sponsors-subtitle {
         font-size: 5vw;

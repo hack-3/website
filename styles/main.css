@@ -66,14 +66,14 @@
         transform: translateY(-15vh);
     }
     #main-title {
-        font-size: 4vw;
-        line-height: 4.5vw;
+        font-size: 3vw;
+        line-height: 3.5vw;
         margin-top: 30px;
-        width: 50vw;
+        width: 40vw;
     }
     
     #main-subtitle {
-        font-size: 2vw;
+        font-size: 1.5vw;
         width: 35vw;
     }
     

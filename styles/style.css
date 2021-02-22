@@ -37,6 +37,13 @@ html {
     text-align: center;
 }
 
+/** Widescreen **/
+@media screen and (min-width: 1920px) {
+    .title {
+        font-size: 4vw;
+    }
+}
+
 /** Mobile **/
 @media screen and (max-width: 768px) {
     .title {
