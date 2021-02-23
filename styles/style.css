@@ -19,6 +19,8 @@ html {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    width: 80vw;
+    margin: auto;
 }
 
 .title {
