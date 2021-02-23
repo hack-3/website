@@ -71,11 +71,17 @@ html {
     .title {
         font-size: 4vw;
     }
+    .card {
+        width: 20vw;
+    }
 }
 
 /** Mobile **/
 @media screen and (max-width: 768px) {
     .title {
         font-size: 15vw;
+    }
+    .card {
+        width: 80vw;
     }
 }

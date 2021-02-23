@@ -1,17 +1,21 @@
-#sponsors-subtitle {
+#about-subtitle {
+    width: 50vw;
+}
+
+#about-subtitle {
     font-size: 2vw;
 }
 
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
-    #sponsors-subtitle {
+    #about-subtitle {
         font-size: 1.5vw;
     }
 }
 
 /** Mobile **/
 @media screen and (max-width: 768px) {
-    #sponsors-subtitle {
+    #about-subtitle {
         font-size: 5vw;
     }
 }
