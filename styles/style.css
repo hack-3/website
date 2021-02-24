@@ -71,7 +71,7 @@ html {
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
     .title {
-        font-size: 4vw;
+        font-size: 3vw;
     }
     .card {
         width: 20vw;
@@ -81,7 +81,7 @@ html {
 /** Mobile **/
 @media screen and (max-width: 768px) {
     .title {
-        font-size: 15vw;
+        font-size: 10vw;
     }
     .card {
         width: 80vw;
