@@ -19,12 +19,12 @@ nav {
 }
 
 .nav-links a {
-    color: #999999;
+    color: #1A144F;
     text-decoration: none;
     letter-spacing: 1px;
 }
 
-nav .logo {
+nav .logo-img {
     height: 4vh;
     margin-left: 20px;
     margin-right: 10px;
@@ -55,7 +55,8 @@ nav .logo {
         align-items: center;
         width: 50%;
         transform: translateX(-100%);
-        transition: transform 0.5s ease-in;
+        transition: transform 0.5s ease-in-out;
+        background-color: rgba(255, 255, 255, 0.9);
     }
 
     .nav-links li {
@@ -68,6 +69,11 @@ nav .logo {
     
     nav .logo {
         margin: auto;
+    }
+
+    nav .logo-img {
+        transform: translateX(-50%);
+        margin: 0;
     }
 }
 
