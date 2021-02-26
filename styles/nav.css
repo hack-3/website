@@ -19,7 +19,7 @@ nav {
 }
 
 .nav-links a {
-    color: #D7D7D7;
+    color: #999999;
     text-decoration: none;
     letter-spacing: 1px;
 }
@@ -31,9 +31,11 @@ nav .logo-img {
 }
 
 .burger {
+    position: relative;
     display: none;
     cursor: pointer;
     margin-left: 20px;
+    z-index: 1;
 }
 
 .burger div {
@@ -48,19 +50,22 @@ nav .logo-img {
     .nav-links {
         position: absolute;
         left: 0px;
-        height: 92vh;
-        top: 8vh;
+        height: 100vh;
+        top: 0px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 40%;
+        width: 50%;
         transform: translateX(-100%);
         transition: transform 0.5s ease-in-out;
         background-color: rgba(0, 0, 0, 0.9);
+        justify-content: center;
+
     }
 
     .nav-links li {
         opacity: 0;
+        margin: 10px;
     }
 
     .burger {
@@ -91,6 +96,10 @@ nav .logo-img {
         opacity: 1;
         transform: translateX(0px);
     }
+}
+
+.toggle div {
+    background-color: white;
 }
 
 .toggle .line1 {
