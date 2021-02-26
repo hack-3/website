@@ -2,6 +2,19 @@
     font-size: 2vw;
     text-align: center;
     width: 80vw;
+    margin-bottom: 10px;
+}
+
+#nexus-bytes {
+    height: 5vw;
+}
+
+#dash-cloud {
+    height: 2vw;
+}
+
+#sticker-mule {
+    height: 10vw;
 }
 
 /** Widescreen **/
@@ -15,5 +28,19 @@
 @media screen and (max-width: 768px) {
     #sponsors-subtitle {
         font-size: 5vw;
+    }
+    
+    #nexus-bytes {
+        height: 15vw;
+        margin-bottom: 10px;
+    }
+
+    #dash-cloud {
+        height: 6vw;
+        margin-top: 10px;
+    }
+    
+    #sticker-mule {
+        height: 30vw;
     }
 }
