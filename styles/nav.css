@@ -59,13 +59,16 @@ nav .logo-img {
         transform: translateX(-100%);
         transition: transform 0.5s ease-in-out;
         background-color: rgba(0, 0, 0, 0.9);
-        justify-content: center;
-
+        justify-content: start;
     }
 
     .nav-links li {
         opacity: 0;
         margin: 20px;
+    }
+
+    .nav-links li:first-child {
+        margin-top: 100px;
     }
 
     .burger {
