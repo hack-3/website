@@ -4,8 +4,10 @@
 }
 
 .about-column {
-    width: 30vw;
+    width: 39vw;
     font-size: 1vw;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 #about-content {
