@@ -36,7 +36,6 @@ html {
     font-family: "Rubik", sans-serif;
     color: #B4B4B4;
     margin: auto;
-    text-align: center;
 }
 
 .card {
@@ -61,6 +60,7 @@ html {
     font-family: "Poppins", sans-serif;
     color: #1A144F;
     text-align: left;
+    font-weight: bold;
 }
 
 .card-subtitle {

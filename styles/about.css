@@ -1,21 +1,27 @@
-#about-subtitle {
-    width: 50vw;
+.about-main {
+    font-size: 2vw;
+    width: 80vw;
 }
 
-#about-subtitle {
-    font-size: 2vw;
+.about-column {
+    width: 30vw;
+    font-size: 1.5vw;
+}
+
+#about-content {
+    margin-top: 20px;
 }
 
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
-    #about-subtitle {
+    .about-column {
         font-size: 1.5vw;
     }
 }
 
 /** Mobile **/
 @media screen and (max-width: 768px) {
-    #about-subtitle {
+    .about-column {
         font-size: 5vw;
     }
 }
