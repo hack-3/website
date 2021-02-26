@@ -1,8 +1,3 @@
-.content#faq-content {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 /* Widescreen */
 @media screen and (min-width: 1920px) {
     .faq {
