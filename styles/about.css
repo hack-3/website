@@ -1,11 +1,11 @@
 .about-main {
-    font-size: 2vw;
+    font-size: 1.5vw;
     width: 80vw;
 }
 
 .about-column {
     width: 30vw;
-    font-size: 1.5vw;
+    font-size: 1vw;
 }
 
 #about-content {
@@ -14,14 +14,20 @@
 
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
+    .about-main {
+        font-size: 1vw;
+    }
     .about-column {
-        font-size: 1.5vw;
+        font-size: 0.6vw;
     }
 }
 
 /** Mobile **/
 @media screen and (max-width: 768px) {
+    .about-main {
+        font-size: 4vw;
+    }
     .about-column {
-        font-size: 5vw;
+        display: none;
     }
 }
