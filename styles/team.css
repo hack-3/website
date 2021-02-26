@@ -8,7 +8,7 @@
 
 .profile-picture {
     border-radius: 50%;
-    width: 15vw;
+    width: 10vw;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
     transition: 0.3s;
     margin-left: 50px;
@@ -55,7 +55,7 @@
 /* Widescreen */
 @media screen and (min-width: 1920px) {
     .profile-picture {
-        width: 10vw;
+        width: 5vw;
     }
     .profile-name {
         font-size: 1vw;
