@@ -5,10 +5,11 @@ topButton = document.getElementById("top");
 window.onscroll = function () { scrollFunction() };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+    if (document.body.scrollTop > 500 || document.documentElement.scrollTop > 500) {
         topButton.style.display = "block";
+        topButton.style.animation = "fadeIn 0.2s ease forwards";
     } else {
-        topButton.style.display = "none";
+        topButton.style.animation = "fadeOut 0.2s ease forwards";
     }
 }
 

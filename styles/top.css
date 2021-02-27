@@ -15,7 +15,6 @@
     padding-bottom: 10px;
     border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
-    animation: fadeIn 0.5s ease forwards;
 }
   
 #top:hover {
@@ -25,4 +24,9 @@
 @keyframes fadeIn {
     0% {opacity: 0;}
     100% {opacity: 1;}
+ }
+
+ @keyframes fadeOut {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
  }
