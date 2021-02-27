@@ -1,5 +1,5 @@
 #top {
-    display: none;
+    opacity: 0;
     position: fixed;
     bottom: 20px; /* Place the button at the bottom of the page */
     right: 20px; /* Place the button 30px from the right */
@@ -15,18 +15,9 @@
     padding-bottom: 10px;
     border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
+    transition-duration: 0.4s;
 }
   
 #top:hover {
     background-color: #555; /* Add a dark-grey background on hover */
 }
-
-@keyframes fadeIn {
-    0% {opacity: 0;}
-    100% {opacity: 1;}
- }
-
- @keyframes fadeOut {
-    0% {opacity: 1;}
-    100% {opacity: 0;}
- }
