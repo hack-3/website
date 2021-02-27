@@ -13,7 +13,7 @@
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 10px; /* Rounded corners */
+    border-radius: 50%; /* Rounded corners */
     font-size: 18px; /* Increase font size */
     animation: fadeIn 0.5s ease forwards;
 }
