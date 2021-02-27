@@ -21,7 +21,6 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/faq.css">
     <link rel="stylesheet" href="styles/team.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/sponsor.css">
@@ -45,16 +44,16 @@
 
         <ul class="nav-links">
             <li>
-                <a href="#about">About Us</a>
+                <a href="#about" onclick="navScroll(this)">About Us</a>
             </li>
             <li>
-                <a href="#faq">FAQ</a>
+                <a href="#faq" onclick="navScroll(this)">FAQ</a>
             </li>
             <li>
-                <a href="#team">Team</a>
+                <a href="#team" onclick="navScroll(this)">Team</a>
             </li>
             <li>
-                <a href="#sponsors">Sponsors</a>
+                <a href="#sponsors" onclick="navScroll(this)">Sponsors</a>
             </li>
         </ul>
     </nav>
@@ -337,7 +336,8 @@
         <p class="subtitle">© Copyright 2021 Hack3</p>
     </footer>
 
-    <script src="js/nav.js"></script>
+    <script src="js/navSlide.js"></script>
+    <script src="js/navScroll.js"></script>
 </body>
 
 </html>

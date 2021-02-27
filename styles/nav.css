@@ -55,7 +55,7 @@ nav .logo-img {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 50%;
+        width: 66%;
         transform: translateX(-100%);
         transition: transform 0.5s ease-in-out;
         background-color: rgba(0, 0, 0, 0.9);
