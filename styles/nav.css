@@ -87,6 +87,7 @@ nav .logo-img {
 
 .nav-active {
     transform: translateX(0%);
+    position: fixed;
 }
 
 @keyframes navLinkFade {
