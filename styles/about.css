@@ -16,7 +16,7 @@
 }
 
 /** Widescreen **/
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
     .about-main {
         font-size: 1vw;
     }

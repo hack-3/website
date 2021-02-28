@@ -50,14 +50,14 @@
 }
 
 /* Widescreen */
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1800px) {
     .profile-picture {
-        width: 5vw;
+        width: 9vw;
     }
     .profile-name {
-        font-size: 1vw;
+        font-size: 1.3vw;
     }
     .description {
-        font-size: 0.7vw;
+        font-size: 0.9vw;
     }
 }
