@@ -4,6 +4,10 @@ function navScroll(e) {
     const navLinks = document.querySelectorAll(".nav-links li");
     const body = document.body;
 
+    if (screen.width > 768) {
+        return;
+    }
+
     // Toggle nav (for mobile view)
     nav.classList.toggle("nav-active");
 
