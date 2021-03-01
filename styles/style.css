@@ -28,7 +28,7 @@ html {
     color: #1A144F;
     margin: auto;
     margin-bottom: 10px;
-    font-size: 5vw;
+    font-size: 3.5vw;
     text-align: center;
 }
 
@@ -61,20 +61,29 @@ html {
     color: #1A144F;
     text-align: left;
     font-weight: bold;
+    font-size: 1.1vw;
 }
 
 .card-subtitle {
     font-family: "Rubik", sans-serif;
     color: #B4B4B4;
+    font-size: 1vw;
 }
 
 /** Widescreen **/
-@media screen and (min-width: 1800px) {
+@media screen and (min-width: 1920px) {
     .title {
         font-size: 3vw;
     }
     .card {
         width: 14.5vw;
+    }
+    .card-title {
+        font-size: 0.8vw;
+    }
+
+    .card-subtitle {
+        font-size: 0.6vw;
     }
 }
 
