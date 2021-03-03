@@ -94,6 +94,7 @@
     #main-title {
         line-height: 11vw;
         margin-top: 10px;
+        width: auto;
     }
     
     #main-subtitle {
