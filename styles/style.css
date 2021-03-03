@@ -95,4 +95,10 @@ html {
     .card {
         width: 80vw;
     }
+    .card-title {
+        font-size: 4vw;
+    }
+    .card-subtitle {
+        font-size: 3.7vw;
+    }
 }
