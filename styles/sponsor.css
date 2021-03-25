@@ -23,6 +23,13 @@
 }
 
 #echoAR {
+    height: 5vw;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#fluidstack {
+    height: 4vw;
     margin-left: 30px;
 }
 
@@ -61,7 +68,16 @@
 
     #echoAR {
         margin-top: 10px;
+        margin-bottom: 10px;
         height: 30vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #fluidstack {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: 13vw;
         margin-left: 0;
     }
 }
