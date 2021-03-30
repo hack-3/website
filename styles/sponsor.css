@@ -5,6 +5,10 @@
     margin-bottom: 10px;
 }
 
+.sponsor {
+    margin: 1vw;
+}
+
 #nexus-bytes {
     height: 5vw;
 }
@@ -14,29 +18,31 @@
 }
 
 #sticker-mule {
-    height: 10vw;
+    height: 3vw;
 }
 
 #ekaru {
     height: 4vw;
-    margin-right: 30px;
 }
 
 #echoAR {
     height: 3vw;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 #fluidstack {
     height: 4vw;
-    margin-left: 30px;
-    margin-right: 30px;
 }
 
 #balsamiq {
     height: 4vw;
-    margin-left: 30px;
+}
+
+#ktbyte {
+    height: 4vw;
+}
+
+#replit {
+    height: 4vw;
 }
 
 /** Widescreen **/
@@ -48,49 +54,48 @@
 
 /** Mobile **/
 @media screen and (max-width: 768px) {
+    .sponsor {
+        margin: 4vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
     #sponsors-subtitle {
         font-size: 5vw;
     }
     
     #nexus-bytes {
         height: 15vw;
-        margin-bottom: 10px;
     }
 
     #dash-cloud {
         height: 6vw;
-        margin-top: 10px;
     }
     
     #sticker-mule {
-        height: 30vw;
+        height: 9vw;
     }
     
     #ekaru {
         height: 12vw;
-        margin-bottom: 10px;
-        margin-right: 0;
     }
 
     #echoAR {
-        margin-top: 10px;
-        margin-bottom: 10px;
         height: 12vw;
-        margin-left: 0;
-        margin-right: 0;
     }
 
     #fluidstack {
-        margin-top: 10px;
-        margin-bottom: 10px;
         height: 13vw;
-        margin-left: 0;
     }
 
     #balsamiq {
-        margin-left: 0;
-        margin-right: 0;
-        margin-top: 10px;
+        height: 15vw;
+    }
+
+    #ktbyte {
+        height: 17vw;
+    }
+
+    #replit {
         height: 15vw;
     }
 }
