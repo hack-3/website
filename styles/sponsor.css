@@ -6,7 +6,7 @@
 }
 
 .sponsor {
-    margin: 1vw;
+    margin: 2vw;
 }
 
 #nexus-bytes {
@@ -43,6 +43,10 @@
 
 #replit {
     height: 4vw;
+}
+
+#aws {
+    height: 5vw;
 }
 
 /** Widescreen **/
@@ -97,5 +101,9 @@
 
     #replit {
         height: 15vw;
+    }
+
+    #aws {
+        height: 18.5vw;
     }
 }
