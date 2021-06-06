@@ -1,23 +1,19 @@
 #top {
     opacity: 0;
     position: fixed;
-    bottom: 20px; /* Place the button at the bottom of the page */
-    right: 20px; /* Place the button 30px from the right */
-    z-index: 99; /* Make sure it does not overlap */
-    border: none; /* Remove borders */
-    outline: none; /* Remove outline */
-    background-image: linear-gradient(to bottom right, #48C8FB, #8D86DA); /* Set a background color */
-    color: white; /* Text color */
-    cursor: pointer; /* Add a mouse pointer on hover */
-    padding-left: 15px; /* Some padding */
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-image: linear-gradient(to bottom right, #48C8FB, #8D86DA);
+    color: white;
+    cursor: pointer;
+    padding-left: 15px;
     padding-right: 15px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border-radius: 50%; /* Rounded corners */
-    font-size: 18px; /* Increase font size */
+    border-radius: 50%;
+    font-size: 18px;
     transition-duration: 0.4s;
-}
-  
-#top:hover {
-    background-color: #555; /* Add a dark-grey background on hover */
 }
