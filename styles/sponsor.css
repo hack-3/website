@@ -53,6 +53,10 @@
     height: 3.5vw;
 }
 
+#postman {
+    height: 4vw;
+}
+
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
     #sponsors-subtitle {
@@ -113,5 +117,9 @@
 
     #netapp {
         height: 12vw;
+    }
+
+    #postman {
+        height: 18vw;
     }
 }
