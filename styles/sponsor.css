@@ -61,6 +61,10 @@
     height: 5vw;
 }
 
+#amazon {
+    height: 4vw;
+}
+
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
     #sponsors-subtitle {
@@ -129,5 +133,9 @@
 
     #wolfram {
         height: 20vw;
+    }
+
+    #amazon {
+        height: 15vw;
     }
 }
