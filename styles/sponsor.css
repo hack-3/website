@@ -57,6 +57,10 @@
     height: 4vw;
 }
 
+#wolfram {
+    height: 5vw;
+}
+
 /** Widescreen **/
 @media screen and (min-width: 1920px) {
     #sponsors-subtitle {
@@ -121,5 +125,9 @@
 
     #postman {
         height: 18vw;
+    }
+
+    #wolfram {
+        height: 20vw;
     }
 }
