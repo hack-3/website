@@ -1,5 +1,30 @@
 @charset "UTF-8";
 
+/* Start Changed Here */
+
+body {
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+
+#particles-js {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
+}
+
+
+/* End Changed Here */
+
+
 /*!
 * Start Bootstrap - Modern Business v5.0.2 (https://startbootstrap.com/template-overviews/modern-business)
 * Copyright 2013-2021 Start Bootstrap
@@ -60,7 +85,7 @@ body {
     font-weight: 400;
     line-height: 1.5;
     color: #212529;
-    background-color: #fff;
+    background-color: #0b072d;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2952,22 +2977,22 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #fff;
-    background-color: #0d6efd;
-    border-color: #0d6efd;
+    background-color: #454074;
+    border-color: #6962ab;
 }
 
 .btn-primary:hover {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
+    background-color: #6962ab;
+    border-color: #454074;
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
     color: #fff;
-    background-color: #0b5ed7;
-    border-color: #0a58ca;
-    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+    background-color: #6962ab;
+    border-color: #6962ab;
+    box-shadow: 0 0 0 0.25rem rgb(127, 49, 253);
 }
 
 .btn-check:checked+.btn-primary,
@@ -2976,8 +3001,8 @@ fieldset:disabled .btn {
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
     color: #fff;
-    background-color: #0a58ca;
-    border-color: #0a53be;
+    background-color: #6962ab;
+    border-color: #6962ab;
 }
 
 .btn-check:checked+.btn-primary:focus,
@@ -2985,7 +3010,7 @@ fieldset:disabled .btn {
 .btn-primary:active:focus,
 .btn-primary.active:focus,
 .show>.btn-primary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+    box-shadow: 0 0 0 0.25rem rgb(127, 49, 253);
 }
 
 .btn-primary:disabled,
@@ -3649,7 +3674,7 @@ fieldset:disabled .btn {
 .btn-group-lg>.btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
-    border-radius: 0.3rem;
+    border-radius: 0.9rem;
 }
 
 .btn-sm,
@@ -7937,7 +7962,12 @@ fieldset:disabled .btn {
 /* rtl:end:remove */
 
 .text-primary {
-    color: #0d6efd !important;
+    background: #8D86DA;
+    background: -webkit-linear-gradient(to right, #8D86DA 0%, #48C8FB 100%);
+    background: -moz-linear-gradient(to right, #8D86DA 0%, #48C8FB 100%);
+    background: linear-gradient(to right, #8D86DA 0%, #48C8FB 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .text-secondary {
@@ -7997,7 +8027,7 @@ fieldset:disabled .btn {
 }
 
 .bg-secondary {
-    background-color: #6c757d !important;
+    background-color: #454074 !important;
 }
 
 .bg-success {
@@ -8021,7 +8051,7 @@ fieldset:disabled .btn {
 }
 
 .bg-dark {
-    background-color: #212529 !important;
+    background-color: #0b072d !important;
 }
 
 .bg-body {
