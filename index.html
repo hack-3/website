@@ -2,442 +2,257 @@
 <html lang="en">
 
 <head>
-    <!-- Meta -->
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description"
-        content="Hack3 is a fun, 24 hour online hackathon made for high school students, both new and experienced. During this time, you will develop and present a project for cool prizes. Most importantly, you will learn new and useful skills that will help you on your computer science journey.">
-    <meta name="robots" content="index, follow">
-
     <title>Hack3: Coding Competition for High School Students</title>
+    <link rel="stylesheet" href="styles.css">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@400;700&family=Rubik:wght@400;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&family=Rubik:wght@400;700;900&display=swap"
         rel="stylesheet">
-    <script src="https://kit.fontawesome.com/f0475563d7.js" crossorigin="anonymous"></script>
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/team.css">
-    <link rel="stylesheet" href="styles/footer.css">
-    <link rel="stylesheet" href="styles/sponsor.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/top.css">
-    <link rel="stylesheet" href="styles/faq.css">
-
-    <!-- Icon -->
-    <link rel="icon" href="assets/Hack3Square.png" type="image/png">
-
 </head>
 
 <body>
-    <!-- Nav -->
-    <nav>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
-        <div class="logo">
-            <img src="assets/Hack3Squareish.png" alt="Hack3" class="logo-img">
-        </div>
-
-        <ul class="nav-links">
-            <li>
-                <a href="#about" onclick="navScroll(this)">Our Mission</a>
-            </li>
-            <li>
-                <a href="#faq" onclick="navScroll(this)">FAQ</a>
-            </li>
-            <li>
-                <a href="#team" onclick="navScroll(this)">Team</a>
-            </li>
-            <li>
-                <a href="#sponsors" onclick="navScroll(this)">Sponsors</a>
-            </li>
-        </ul>
-    </nav>
-
-    <!-- Landing -->
-    <div class="section" id="main-section">
-        <div class="content" id="main-content">
-            <img src="assets/Hack3.png" alt="Hack3" class="hack3">
-            <h1 class="title" id="main-title">Empowering Young Coders Everywhere.</h1>
-            <p class="subtitle" id="main-subtitle">The Leading Online Hackathon for<br>High Schoolers.<br>Coming June
-                26-27
-                2021!</p>
-            <a href="https://hack32021.devpost.com/" target="_BLANK" class="register"><strong>Register!</strong></a>
-        </div>
-    </div>
-
-    <!-- Mission -->
-    <div class="section" id="about">
-        <h1 class="title" id="about-title">Our Mission</h1>
-        <p class="subtitle about-main"><strong>Hack3</strong> is a global <strong>online hackathon</strong>
-            that aims to enable high school
-            students to learn computer science, with a broader message of "everyone can code" targeting underrepresented
-            demographics to improve diversity and inclusion of individuals in the computer technology space.</p>
-        <div class="content" id="about-content">
-            <p class="subtitle about-column">COVID-19’s effects have revealed great wealth inequalities in America’s
-                communities. More than ever, marginalized and impoverished communities need opportunities to lift
-                themselves out of poverty.<br><br>At Hack3, we believe that providing educational opportunities to learn
-                computer science, one of the highest paying job sectors, is the solution.<br><br> We hope that by
-                bringing students of all
-                backgrounds together, we will be able to foster innovation, creativity, and create new lifelong
-                friendships
-                for hackers.
-            </p>
-            <p class="subtitle about-column">In 2020, we connected nearly three hundred students of all skill levels, to
-                build novel projects that positively impacted the world. Over one hundred attended our free
-                classes led by industry professionals to learn new skills. Over twenty mentors lurked in our helpdesk
-                to help participants when they needed help. Last year, our judges, mentors, and workshop instructors
-                were affiliated with the likes of Stanford, Harvard, Amazon, NetApp, and Wikipedia.<br><br>With the
-                lessons learned from 2020, we aim to host a competition consisting of over 350 participants, while
-                targeting the underprivileged communities around the world. To help achieve our goal of providing a
-                learning opportunity for everyone, we will be sponsoring internet access to those who need it to truly
-                level the playing field for all.</p>
-        </div>
-    </div>
-
-    <div class="section" id=statistics>
-        <h1 class="title" id="statistics-title">Statistics</h1>
-        <div class="content" id="statistics-title">
-            <div class="card-sm">
-                <div class="card-content center">
-                    <p class="card-big-title">Participants</p>
-                    <p class="card-big-number">257</p>
-                    <p class="card-big-subtitle">in 2020</p>
-                </div>
+    <header>
+        <div class="header__content">
+            <img src="assets/hack3sq.png" alt="Hack3" class="header__img">
+            <nav>
+                <ul class="nav">
+                    <li class="nav__item"><a href="#mission" class="nav__link">Our Mission</a></li>
+                    <li class="nav__item"><a href="#faq" class="nav__link">FAQ</a></li>
+                    <li class="nav__item"><a href="#team" class="nav__link">Team</a></li>
+                    <li class="nav__item"><a href="#sponsors" class="nav__link">Sponsors</a></li>
+                </ul>
+            </nav>
+            <div class="header__social">
+                <ul class="nav">
+                    <li class="nav__item"><a href="http://instagram.com/_hack3_" target="_blank" class="nav__link"><img
+                                src="" alt=""></a></li>
+                    <li class="nav__item"><a href="https://www.facebook.com/hack3boston" target="_blank"
+                            class="nav__link"><img src="" alt=""></a></li>
+                    <li class="nav__item"><a href="" class="nav__link"><img src="" alt=""></a></li>
+                    <li class="nav__item"><a
+                            href="https://join.slack.com/t/hack3-2020/shared_invite/zt-f1hgfvz9-6y0EVPjOL3WuLfvF7rcQMg"
+                            target="_blank" class="nav__link"><img src="" alt=""></a></li>
+                </ul>
             </div>
-            <div class="card-sm">
-                <div class="card-content center">
-                    <p class="card-big-title">Projects</p>
-                    <p class="card-big-number">57</p>
-                    <p class="card-big-subtitle">in 2020</p>
+        </div>
+    </header>
+    <section id="hero">
+        <div class="container center">
+            <div class="grid two-col">
+                <div class="col center">
+                    <div class="content">
+                        <img src="assets/hack3.png" alt="Hack3" class="hero__img">
+                        <h2 class="hero__title">Empowering Young Coders Everywhere.</h2>
+                        <h1 class="hero__subtitle">The Leading Online Hackathon<br>For High Schoolers</h1>
+                        <a href="http://hack32021.devpost.com" class="btn btn-primary" target="_blank">Register Now</a>
+                    </div>
                 </div>
-            </div>
-            <div class="card-sm">
-                <div class="card-content center">
-                    <p class="card-big-title">Judges/Mentors/Workshop Instructors</p>
-                    <p class="card-big-number">¯\_(ツ)_/¯</p>
-                    <p class="card-big-subtitle">in 2020</p>
+                <div class="col">
+                    <video autoplay loop class="hero__video">
+                        <source src="assets/animation.webm" type="video/webm">
+                        Your browser does not support video
+                    </video>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- FAQ -->
-    <div class="section" id="faq">
-        <h1 class="title" id="faq-title">FAQ</h1>
-        <div class="content" id="faq-content">
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">What is Hack3?</p>
-                    <p class="card-subtitle">Hack3 is a fun, 24 hour online hackathon made for high school students,
-                        both new
-                        and
-                        experienced. During this time, you will develop and present a project for cool prizes. Most
-                        importantly, you will learn new and useful skills that will help you on your computer science
-                        journey.</p>
-                </div>
+    </section>
+    <section id=" mission">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="section-title">Our Mission</h1>
             </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">What is a hackathon?</p>
-                    <p class="card-subtitle">A hackathon is an event where teams of people come together to design and
-                        build
-                        something involving a novel use of technology, usually centered around some theme.</p>
-                </div>
+            <p class="mission__body">Hack3 is a global online hackathon that aims to enable high schools
+                students to
+                learn computer science.
+                We believe that everyone can code and are always looking for ways to improve diversity
+                within the
+                computer technology space.</p>
+        </div>
+    </section>
+    <section id="faq">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="section-title">FAQ</h1>
             </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">What will happen during Hack3?</p>
-                    <p class="card-subtitle">Expect <strong>team building</strong> activities,
-                        <strong>workshops</strong> led
-                        by
-                        industry professionals, and fun mini competitions!
-                    </p>
+            <div class="flex card-container">
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">What is Hack3?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">Hack3 is a fun, 24 hour online hackathon made for high school students,
+                            both new and
+                            experienced. During this time, you will develop and present a project for cool prizes.
+                            Most
+                            importantly, you will learn new and useful skills that will help you on your computer
+                            science journey.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">Who should come to Hack3?</p>
-                    <p class="card-subtitle">High school students with an interest in technology or programming.</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">What is a hackathon?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">A hackathon is an event where teams of people come together to design and
+                            build something
+                            involving a novel use of technology, usually centered around some theme.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">What should I bring?</p>
-                    <p class="card-subtitle">Bring strong enthusiasm and energy!</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">What will happen during Hack3?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">Expect team building activities, workshops led by industry professionals,
+                            and fun mini
+                            competitions!</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">How much experience do I need?</p>
-                    <p class="card-subtitle">No experience is needed! Anyone with an interest in computer science can
-                        come and
-                        participate.</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">Who should come to Hack3?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">High school students with an interest in technology or programming.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">How do I form a team?</p>
-                    <p class="card-subtitle">We encourage you to form a team prior to Hack3, but we will host fun team
-                        formation
-                        activities too.</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">How much experience do I need?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">No experience is needed! Anyone with an interest in computer science can
+                            come and
+                            participate.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">How many people can be in a team?</p>
-                    <p class="card-subtitle">From 1 to 4.</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">How many people can be in a team?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">From 1 to 4.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">Are there prizes?</p>
-                    <p class="card-subtitle">Yes! There are prizes for first, second and third place for each of the
-                        three
-                        tracks,
-                        but you can only participate in one track.</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">Are there prizes?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">Yes! There are prizes for first, second and third place for each of the
+                            three tracks, but you can only participate in one track.</p>
+                    </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-content">
-                    <p class="card-title">How is the winner determined?</p>
-                    <p class="card-subtitle">A remote panel of experienced judges will thoroughly examine your project
-                        and
-                        grade it
-                        based on creativity, technical excellence, and theme relevance.</p>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">How do I form a team?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">We encourage you to form a team prior to Hack3, but we will host fun team
+                            formation activities too.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card__title-container">
+                        <h1 class="card__title">How is the winner determined?</h1>
+                    </div>
+                    <div class="card__body-container">
+                        <p class="card__body">A remote panel of experienced judges will thoroughly examine your project
+                            and grade it based on creativity, technical excellence, and theme relevance.</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Team -->
-    <div class="section" id="team">
-        <h1 class="title" id="team-title">Team</h1>
-        <div class="content" id="team-content">
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Vid.jpg" alt="Vid Suresh">
-                </div>
-                <div>
-                    <p class="profile-name">Vid Suresh</p>
-                </div>
-                <div>
-                    <p class="description">Lead Organizer</p>
-                </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="title-container">
+                <h1 class="section-title">Meet the Team</h1>
             </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Jonathan.png" alt="Jonathan Lei">
+            <div class="flex flex-wrap profile-container">
+                <div class="profile">
+                    <img src="assets/team/Vid.jpg" alt="Vid Suresh" class="profile__image">
+                    <h1 class="profile__name">Vid Suresh</h1>
+                    <h2 class="profile__position">Lead Organizer</h2>
                 </div>
-                <div>
-                    <p class="profile-name">Jonathan Lei</p>
+                <div class="profile">
+                    <img src="assets/team/Jonathan.png" alt="Jonathan Lei" class="profile__image">
+                    <h1 class="profile__name">Jonathan Lei</h1>
+                    <h2 class="profile__position">Lead Organizer</h2>
                 </div>
-                <div>
-                    <p class="description">Lead Organizer</p>
+                <div class="profile">
+                    <img src="assets/team/Sam.png" alt="Sam Flanzer" class="profile__image">
+                    <h1 class="profile__name">Sam Flanzer</h1>
+                    <h2 class="profile__position">Sponsorships</h2>
                 </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Sam.png" alt="Sam Flanzer">
+                <div class="profile">
+                    <img src="assets/team/Uditi.png" alt="Uditi Sharma" class="profile__image">
+                    <h1 class="profile__name">Uditi Sharma</h1>
+                    <h2 class="profile__position">Social Media</h2>
                 </div>
-                <div>
-                    <p class="profile-name">Sam Flanzer</p>
+                <div class="profile">
+                    <img src="assets/team/Amanda.jpg" alt="Amanda Sherman" class="profile__image">
+                    <h1 class="profile__name">Amanda Sheramn</h1>
+                    <h2 class="profile__position">Outreach Director</h2>
                 </div>
-                <div>
-                    <p class="description">Sponsorships</p>
+                <div class="profile">
+                    <img src="assets/team/Rama.jpg" alt="Rama Rao Vencharla" class="profile__image">
+                    <h1 class="profile__name">Rama Rao Vencharla</h1>
+                    <h2 class="profile__position">Sponsorships and Outreach</h2>
                 </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Uditi.png" alt="Uditi">
+                <div class="profile">
+                    <img src="assets/team/Abhisar.png" alt="Abhisar Anand" class="profile__image">
+                    <h1 class="profile__name">Abhisar Anand</h1>
+                    <h2 class="profile__position">Outreach</h2>
                 </div>
-                <div>
-                    <p class="profile-name">Uditi Sharma</p>
+                <div class="profile">
+                    <img src="assets/team/Srini.jpg" alt="Srinivas Sriram" class="profile__image">
+                    <h1 class="profile__name">Srinivas Sriram</h1>
+                    <h2 class="profile__position">Outreach</h2>
                 </div>
-                <div>
-                    <p class="description">Social Media</p>
+                <div class="profile">
+                    <img src="assets/team/Owen.jpg" alt="Owen Wang" class="profile__image">
+                    <h1 class="profile__name">Owen Wang</h1>
+                    <h2 class="profile__position">Website Developer</h2>
                 </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Amanda.jpg" alt="Amanda Sherman">
+                <div class="profile">
+                    <img src="assets/team/Christopher.jpg" alt="Christopher Li" class="profile__image">
+                    <h1 class="profile__name">Christopher Li</h1>
+                    <h2 class="profile__position">Back End Developer</h2>
                 </div>
-                <div>
-                    <p class="profile-name">Amanda Sherman</p>
+                <div class="profile">
+                    <img src="assets/team/Claudia.jpg" alt="Claudia Woolf" class="profile__image">
+                    <h1 class="profile__name">Claudia Woolf</h1>
+                    <h2 class="profile__position">Graphic Designer</h2>
                 </div>
-                <div>
-                    <p class="description">Outreach Director</p>
+                <div class="profile">
+                    <img src="assets/team/Ethan.jpg" alt="Ethan Li" class="profile__image">
+                    <h1 class="profile__name">Ethan Li</h1>
+                    <h2 class="profile__position">Graphic Designer</h2>
                 </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Rama.jpg" alt="Rama Rao Vencharla">
+                <div class="profile">
+                    <img src="assets/team/George.jpg" alt="George Ji" class="profile__image">
+                    <h1 class="profile__name">George Ji</h1>
+                    <h2 class="profile__position">Graphic Designer</h2>
                 </div>
-                <div>
-                    <p class="profile-name">Rama Rao Vencharla</p>
+                <div class="profile">
+                    <img src="assets/team/Mark.jpg" alt="Mark Hu" class="profile__image">
+                    <h1 class="profile__name">Mark Hu</h1>
+                    <h2 class="profile__position">Logistics</h2>
                 </div>
-                <div>
-                    <p class="description">Sponsorships and Outreach</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Abhisar.png" alt="Abhisar Anand">
-                </div>
-                <div>
-                    <p class="profile-name">Abhisar Anand</p>
-                </div>
-                <div>
-                    <p class="description">Outreach</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Srini.jpg" alt="Srinivas Sriram">
-                </div>
-                <div>
-                    <p class="profile-name">Srinivas Sriram</p>
-                </div>
-                <div>
-                    <p class="description">Outreach</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Owen.jpg" alt="Owen Wang">
-                </div>
-                <div>
-                    <p class="profile-name">Owen Wang</p>
-                </div>
-                <div>
-                    <p class="description">Web Developer</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Christopher.jpg" alt="Christopher Li">
-                </div>
-                <div>
-                    <p class="profile-name">Christopher Li</p>
-                </div>
-                <div>
-                    <p class="description">Back End Developer</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Claudia.jpg" alt="Claudia">
-                </div>
-                <div>
-                    <p class="profile-name">Claudia Woolf</p>
-                </div>
-                <div>
-                    <p class="description">Graphic Designer</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Ethan.jpg" alt="Ethan Li">
-                </div>
-                <div>
-                    <p class="profile-name">Ethan Li</p>
-                </div>
-                <div>
-                    <p class="description">Graphic Designer</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/George.jpg" alt="George Ji">
-                </div>
-                <div>
-                    <p class="profile-name">George Ji</p>
-                </div>
-                <div>
-                    <p class="description">Graphic Designer</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Mark.jpg" alt="Mark Hu">
-                </div>
-                <div>
-                    <p class="profile-name">Mark Hu</p>
-                </div>
-                <div>
-                    <p class="description">Logistics</p>
-                </div>
-            </div>
-            <div class="profile">
-                <div>
-                    <img class="profile-picture" src="assets/team/Suresh.jpg" alt="Suresh Sankar">
-                </div>
-                <div>
-                    <p class="profile-name">Suresh Sankar</p>
-                </div>
-                <div>
-                    <p class="description">Advisor</p>
+                <div class="profile">
+                    <img src="assets/team/Suresh.jpg" alt="Suresh Sankar" class="profile__image">
+                    <h1 class="profile__name">Suresh Sankar</h1>
+                    <h2 class="profile__position">Advisor</h2>
                 </div>
             </div>
         </div>
-    </div>
-
-    <!-- Sponsors -->
-    <div class="section" id="sponsors">
-        <h1 class="title" id="sponsors-title">Sponsors</h1>
-        <p class="subtitle" id="sponsors-subtitle">Interested in <a href="assets/Hack3 Sponsorship Prospectus.pdf"
-                target="_blank">sponsoring Hack3</a>? Email us at <a href="mailto:sponsor@hack3.co">sponsor@hack3.co</a>
-        </p>
-        <div class="content" id="sponsors-content">
-            <a href="https://amazon.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/amazon.png" alt="Amazon" class="sponsor" id="amazon"></a>
-            <a href="https://netapp.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/netapp.svg" alt="NetApp" class="sponsor" id="netapp"></a>
-            <a href="https://balsamiq.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/balsamiq.svg" alt="Balsamiq" class="sponsor" id="balsamiq"></a>
-            <a href="https://postman.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/postman.svg" alt="Postman" class="sponsor" id="postman"></a>
-            <a href="https://nexusbytes.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/nexusbytes.png" alt="Nexus Bytes" class="sponsor" id="nexus-bytes"></a>
-            <a href="https://www.stickermule.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/stickermule.png" alt="Sticker Mule" class="sponsor" id="sticker-mule"></a>
-            <a href="https://www.ekaru.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/Ekaru.webp" alt="Ekaru" class="sponsor" id="ekaru"></a>
-            <a href="https://dash-cloud.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/dashcloud.png" alt="Dash Cloud" class="sponsor" id="dash-cloud"></a>
-            <a href="https://www.echoar.xyz/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/echoAR.webp" alt="echoAR" class="sponsor" id="echoAR"></a>
-            <a href="https://www.fluidstack.io/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/fluidstack.png" alt="FluidStack" class="sponsor" id="fluidstack"></a>
-            <a href="https://ktbyte.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/ktbyte.png" alt="KTBYTE" class="sponsor" id="ktbyte"></a>
-            <a href="https://wolfram.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/Wolfram.png" alt="Wolfram" class="sponsor" id="wolfram"></a>
-            <a href="https://replit.com/" target="_blank" rel="noopener noreferrer"><img
-                    src="assets/sponsors/replit.svg" alt="Replit" class="sponsor" id="replit"></a>
-        </div>
-    </div>
-
-    <!-- Back to Top -->
-    <a href="#" id="top" title="Go to top"><i class="fas fa-angle-up"></i></a>
-
-    <!-- Footer-->
-    <footer class="footer" id="footer">
-        <p class="subtitle">© Copyright 2021 Hack3</p>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="js/navSlide.js"></script>
-    <script src="js/navScroll.js"></script>
-    <script src="js/top.js"></script>
+    </section>
 </body>
 
 </html>
