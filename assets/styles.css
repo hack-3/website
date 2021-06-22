@@ -21,6 +21,19 @@ body.fade-out {
     z-index: 0;
 }
 
+.profile:hover {
+    transform: scale(1.05) translateY(-0.5rem);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .12), 0 4px 8px rgba(0, 0, 0, .06);
+}
+
+.profile {
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, .08), 0 0 6px rgba(0, 0, 0, .05);
+    transition: .3s transform cubic-bezier(.155, 1.105, .295, 1.12), .3s box-shadow, .3s -webkit-transform cubic-bezier(.155, 1.105, .295, 1.12);
+    /* padding: 14px 80px 18px 36px; */
+    cursor: pointer;
+}
+
 
 /* End Changed Here */
 
@@ -8023,7 +8036,10 @@ fieldset:disabled .btn {
 }
 
 .bg-primary {
-    background-color: #0d6efd !important;
+    background-image: -webkit-linear-gradient(to right, #8D86DA 0%, #48C8FB 100%);
+    background-image: -moz-linear-gradient(to right, #8D86DA 0%, #48C8FB 100%);
+    background-image: linear-gradient(to right, #8D86DA 0%, #48C8FB 100%);
+    background-color: #0b072d;
 }
 
 .bg-secondary {
