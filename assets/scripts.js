@@ -40,3 +40,19 @@ $(window).scroll(function () {
     }
 
 });
+
+// Changes NavBar Background based on how far user scrolls
+$(function() {
+    var header = $(".navbar");
+
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop();
+        var div_top = $(document.getElementById("about")).offset().top;
+        if (scroll >= div_top) {
+            header.addClass("bg-light");
+        } else {
+            header.removeClass("bg-light");
+        }
+    });
+
+});
