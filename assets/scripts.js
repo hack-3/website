@@ -44,14 +44,20 @@ $(window).scroll(function () {
 // Changes NavBar Background based on how far user scrolls
 $(function() {
     var header = $(".navbar");
-
+    var text = $(".nav-link");
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         var div_top = $(document.getElementById("about")).offset().top;
+        var div_top_2 = $(document.getElementById("about")).offset().top - 50;
         if (scroll >= div_top) {
             header.addClass("bg-light");
         } else {
             header.removeClass("bg-light");
+        }
+        if (scroll >= div_top_2) {
+            text.removeClass("text-white");
+        } else {
+            text.addClass("text-white");
         }
     });
 
