@@ -48,7 +48,7 @@ $(function() {
     $(window).scroll(function() {
         var scroll = $(window).scrollTop();
         var div_top = $(document.getElementById("about")).offset().top;
-        var div_top_2 = $(document.getElementById("about")).offset().top - 50;
+        var div_top_2 = $(document.getElementById("about")).offset().top;
         if (scroll >= div_top) {
             header.addClass("bg-light");
         } else {
