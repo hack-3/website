@@ -1,0 +1,68 @@
+.list-timeline {
+    margin: 0;
+    padding: 5px 0;
+    position: relative
+}
+
+.list-timeline:before {
+    width: 2px;
+    background: #ccc;
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    content: ''
+}
+
+.list-timeline .list-timeline-item {
+    margin: 0;
+    padding: 0;
+    padding-left: 15px !important;
+    position: relative
+}
+
+.list-timeline .list-timeline-item:before {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 2px solid #ccc;
+    position: absolute;
+    left: 0;
+    top: 14px;
+    /* top: 0px; */
+    content: '';
+    border-radius: 100%;
+    -webkit-transition: all .3 ease-in-out;
+    transition: all .3 ease-in-out
+}
+
+.list-timeline.past:before {
+    background: #4b4b74
+}
+
+.list-timeline-item.past:before {
+    border:#4b4b74;
+    background: #4b4b74
+}
+
+.list-timeline.present:before  {
+    background: #e5e5e5;
+    height: 150%;
+    top: -17px;
+    /* top: -34px; */
+}
+
+.list-timeline-item.present:before{
+    border: #6eb1ff;
+    background: #6eb1ff
+}
+
+.list-timeline.future:before {
+    background: #e5e5e5
+}
+
+.list-timeline-item.future:before {
+    border: #e5e5e5;
+    background: #e5e5e5
+}
