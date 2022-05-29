@@ -48,8 +48,8 @@
 
 .list-timeline.present:before  {
     background: #e5e5e5;
-    height: 150%;
-    top: -17px;
+    /* height: 150%; */
+    /* top: -17px; */
     /* top: -34px; */
 }
 
