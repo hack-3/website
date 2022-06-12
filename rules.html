@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta -->
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta
+        content="Hack3 is a fun, 24 hour online hackathon made for high school students, both new and experienced. During this time, you will develop and present a project for cool prizes. Most importantly, you will learn new and useful skills that will help you on your computer science journey."
+        name="description">
+    <meta content="index, follow" name="robots">
+
+    <title>Hack3: Coding Competition for High School Students</title>
+
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="assets/styles.css" rel="stylesheet" />
+
+    <!-- Favicon -->
+    <link href="assets/hack3square.png" rel="icon" type="image/png">
+</head>
+
+<body class="d-flex flex-column h-100">
+    <script>
+        document.body.classList.add('fade-out');
+    </script>
+    <main class="flex-shrink-0">
+        <!--Navigation-->
+        <nav class="navbar navbar-expand-md navbar-light shadow-5-strong sticky-top bg-light" style="z-index: 9;">
+            <div class="container-fluid" style="max-width: 1320px; padding-right: 100px;">
+                <a class="d-none navbar-brand d-md-block" href="index.html"><img class="" width="50" height="auto"
+                        src="assets/hack3square.png"></a>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="rules.html">Rules</a></li>
+                        <li class="nav-item"><a class="nav-link" href="schedule2022.html">Schedule</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#sponsors">Sponsors</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#judges">Judges</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#faq">FAQ</a></li>
+                        <li class="nav-item"><a class="nav-link" href="index.html#team">Team</a></li>
+                        <li class="nav-item"><a class="nav-link" href="mailto:team@hack3.co">Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link" href="2021.html">2021</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://hack3-2020.slack.com/"><i
+                                    class="bi bi-slack"></i></a></li>
+                        <!-- <li class="nav-item"><a class="nav-link text-white" href="https://www.reddit.com/user/hack3team/"><i class="bi bi-reddit"></i></a></li> -->
+                        <li class="nav-item"><a class="nav-link text-white"
+                                href="https://www.instagram.com/hack3_2021/"><i class="bi bi-instagram"></i></a></li>
+                        <!-- <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownBlog" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Blog</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownBlog">
+                                <li><a class="dropdown-item" href="blog-home.html">Blog Home</a></li>
+                                <li><a class="dropdown-item" href="blog-post.html">Blog Post</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
+                                <li><a class="dropdown-item" href="portfolio-overview.html">Portfolio Overview</a></li>
+                                <li><a class="dropdown-item" href="portfolio-item.html">Portfolio Item</a></li>
+                            </ul>
+                        </li> -->
+                    </ul>
+                </div>
+            </div>
+            <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse"
+                type="button"><span class="navbar-toggler-icon"></span></button>
+        </nav>
+        <!-- Rules -->
+        <section class="py-5 bg-light" id="events">
+            <div class="container my-5">
+                <div class="text-center">
+                    <h1 class="h1 fw-bolder text-primary">Hack3 | Hacker Rules</h1>
+                </div>
+                <div>
+                    <h5 class="py-4">Dates:</h5>
+                    <p>
+                        Our opening ceremony begins on June 25 2022 at 12:00 PM EDT. Attendance is compulsory. 
+                        The link is found in our Slack, which can be accessed after completing our registration form. 
+                        <br><br>
+                        Hacking begins on June 25 at 1:00 PM EDT. Projects must be submitted to the Devpost judging platform by June 26 at 1:00 PM EDT. 
+                        Failure to submit a project by the deadline or reasonable suspicion that work was completed before the hacking period started at the 
+                        organizers' discretion will result in disqualification from earning prizes.
+                    </p>
+                    <h5 class="py-4">Eligibility:</h5>
+                    <p>
+                        Any student enrolled in a higher school institution for the 2022-2023 school year is eligible to participate, subject to regulations set 
+                        by the hackers' locations' authorities. Hackers who are enrolled in secondary schools may still apply by emailing us at: 
+                        <a href = "mailto: team@hack3.co">team@hack3.co</a>.
+                        <br><br>
+                        <i>Any falsified information may serve as grounds for disqualification for earning awards.</i>
+                    </p>
+                    <h5 class="py-4">Submissions:</h5>
+                    <p>
+                        Our judges will judge 1st, 2nd, and 3rd place prizes, three 1st place prizes for each track, a best beginners project prize and sponsor prizes.
+                        <br><br>
+                        The judging process will be different from that of a typical online hackathon. On submission, a Hack3 organizer will check your 
+                        project against eligibility. You will be assigned a Zoom link and a time from 1:30 PM EDT to 3:30 PM EDT. Wait in the waiting room with 
+                        your team until your time comes. You will have 5 minutes: 3 minutes for a presentation and demo, and 2 minute for questions. 
+                        <br><br>
+                        Submissions can include phone apps, hardware devices, web applications, and desktop applications, among others. 
+                        There is no limit, except that we expect technology to be used in some capacity. We encourage hackers to post a 
+                        demonstration video or a link for judges to test the project.
+                        <br><br>
+                        Submissions are recommended to be linked to a Github repository where our systems can check for plagiarism. While we encourage 
+                        using public code online, we will immediately disqualify any project that simply rebrands another project without changing functionality. 
+                        <br><br>
+                        Remember, we retain full discretion over the selection of winners. Our say is final.  
+                    </p>
+                    <h5 class="py-4">Submission Rights & Display:</h5>
+                    <p>
+                        As part of future Hack3 outreach programs, we may include hackers' public submission information found in Devpost in advertising material.
+                        <br><br>
+                        Further, you may voluntarily submit pictures for us to use in future promotional materials of yourself coding. 
+                    </p>
+                    <h5 class="py-4">Prizes & Winner Selection:</h5>
+                    <p>
+                        Prizes can be found on our homepage section within Devpost. Submissions will be reviewed by at least three judges. 
+                        Each judge will grade projects by themself following our rubric, and the highest scoring submissions will be reviewed 
+                        by at least five judges to check eligibility.
+                    </p>
+                    <h5 class="py-4">Additional Notes:</h5>
+                    <p>
+                        Our hackathon is dedicated to providing a safe and comfortable environment and harassment-free 
+                        experience for everyone, regardless of the following:
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <ul class="list mb-0">
+                                    <li>gender</li>
+                                    <li>gender identity and expression</li>
+                                    <li>age</li>
+                                    <li>sexual orientation</li>
+                                    <li>disability</li>
+                                    <li>physical appearance</li>
+                                    <li>body size</li>
+                                    <li>race</li>
+                                  </ul>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <ul class="list">
+                                    <li>ethnicity</li>
+                                    <li>nationality</li>
+                                    <li>religion</li>
+                                    <li>political views</li>
+                                    <li>previous hackathon attendance or lack of</li>
+                                    <li>computing experience or lack of</li>
+                                    <li>chosen programming language or tech stack</li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <br>
+                        We do not tolerate harassment of hackathon participants in any form. Sexual language and imagery is not 
+                        appropriate at any hackathon venue, this includes the following:
+                        <br><br>
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <ul class="list mb-0">
+                                    <li>hacks</li>
+                                    <li>talks, presentations, or demos</li>
+                                    <li>workshops</li>
+                                  </ul>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <ul class="list">
+                                    <li>any parties associated to the hackathon</li>
+                                    <li>social media</li>
+                                    <li>any other online media</li>
+                                  </ul>
+                            </div>
+                        </div>
+                        <br>
+                        Hackathon participants violating these rules may be sanctioned or expelled from the hackathon at the discretion of the hackathon organisers.
+                        <br><br>
+                        Harassment includes offensive verbal comments related to gender, gender identity and expression, age, sexual orientation, disability, 
+                        physical appearance, body size, race, ethnicity, nationality, religion or political views, sexual images in public spaces, deliberate 
+                        intimidation, stalking, following, photography or audio/video recording against reasonable consent, sustained disruption of talks or 
+                        other events, inappropriate physical contact, and unwelcome sexual attention.
+                        <br><br>
+                        Photography is encouraged, but other participants must be given a reasonable chance to opt out from being photographed. If they object 
+                        to the taking of their photograph, comply with their request. It is inappropriate to take photographs in contexts where people have a 
+                        reasonable expectation of privacy (in bathrooms or where participants are sleeping).
+                        <br><br>
+                        Participants asked to stop any harassing behavior are expected to comply immediately.
+                        <br><br>
+                        As this is a hackathon, we like to explicitly note that the hacks created at our hackathon are equally subject to the anti-harassment policy.
+                        <br><br>
+                        Sponsors and partners are also subject to the anti-harassment policy. In particular, sponsors should not use sexualised images, activities, 
+                        or other material. Sponsor representatives (including volunteers) should not use sexualised clothing/uniforms/costumes, or otherwise create 
+                        a sexualised environment.
+                        <br><br>
+                        If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a 
+                        member of hackathon staff immediately.
+                        <br><br>
+                        Hackathon staff will be happy to help participants contact any local security or local law enforcement, provide escorts, or 
+                        otherwise assist those experiencing harassment to feel safe for the duration of the hackathon. We value your attendance.
+                        <br><br>
+                        If a participant engages in harassing behavior, the hackathon organisers may take any action they deem appropriate. This includes 
+                        warning the offender, expulsion from the hackathon with no refund (if applicable), or reporting their behaviour to local law enforcement.
+                        <br><br>
+                        We expect participants to follow these rules at hackathon and workshop venues and hackathon-related social events.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">Copyright &copy; Hack3 2021</div>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small" href="https://hack3-2020.slack.com" target="_blank">Slack <i
+                            class="bi bi-slack"></i></a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="https://hack32021.devpost.com" target="_blank">Instagram <i
+                            class="bi bi-instagram"></i></a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="https://hack32021.devpost.com" target="_blank">Register</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="https://hack32021.devpost.com/rules" target="_blank">Rules</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf"
+                        target="_blank">MLH Code of Conduct</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="mailto:team@hack3.co">Email Us</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- <script src="assets/scripts.js"></script> -->
+    <script>
+        window.addEventListener('DOMContentLoaded', () => {
+            document.body.classList.remove('fade-out');
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- Timeline JS -->
+    <a id="mlh-trust-badge"
+        style="display:block;max-width:80px;min-width:60px;position:fixed;right:5px;top:0;width:10%;z-index:10000"
+        href="https://mlh.io/seasons/2022/events?utm_source=na-hackathon&utm_medium=TrustBadge&utm_campaign=2022-season&utm_content=white"
+        target="_blank"><img
+            src="https://s3.amazonaws.com/logged-assets/trust-badge/2022/mlh-trust-badge-2022-white.svg"
+            alt="Major League Hacking 2022 Hackathon Season" style="width:100%"></a>
+</body>
+
+</html>
