@@ -690,8 +690,9 @@
             // console.log(mi);
 
             // Time travel for testing
-            // m = m + 1;
-            // d = d + 7;
+            // y = y + 1;
+            // m = m;
+            // d = d + 17;
             // h = h;
             // mi = mi;
             
@@ -711,7 +712,7 @@
                     $(this).removeClass('past');
                     $(this).removeClass('future');
                     $(this).addClass('present');
-                } else if (y >= year && m >= month && d > day || d == day && totalmi >= totalendminute) {
+                } else if (y > year || y >= year && m > month || y >= year && m >= month && d > day || d == day && totalmi >= totalendminute) {
                     $(this).removeClass('future');
                     $(this).removeClass('present');
                     $(this).addClass('past');
@@ -731,7 +732,7 @@
                     $(this).removeClass('past');
                     $(this).removeClass('future');
                     $(this).addClass('present');
-                } else if (y >= year && m >= month && d > day || d == day && totalmi >= totalendminute) {
+                } else if (y > year || y >= year && m > month || y >= year && m >= month && d > day || d == day && totalmi >= totalendminute) {
                     $(this).removeClass('future');
                     $(this).removeClass('present');
                     $(this).addClass('past');
